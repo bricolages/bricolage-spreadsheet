@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'bricolage-spreadsheet'
   s.version = '1.0.0'
-  s.summary = 'Goole Spreadsheet-related job classes for Bricolage batch framework'
+  s.summary = 'Google Spreadsheet-related job classes for Bricolage batch framework'
   s.license = 'MIT'
 
   s.author = ['Shimpei Kodama']

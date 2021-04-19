@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = 'shimpeko@gmail.com'
   s.homepage = 'https://github.com/bricolages/bricolage-spreadsheet'
 
-  s.files = Dir.glob(['README.md', 'RELEASE.md', 'lib/**/*.rb', 'jobclass/*.rb', 'test/**/*'])
+  s.files = Dir.glob(['README.md', 'lib/**/*.rb', 'jobclass/*.rb'])
   s.require_path = 'lib'
 
   s.required_ruby_version = '~> 2.7.0'

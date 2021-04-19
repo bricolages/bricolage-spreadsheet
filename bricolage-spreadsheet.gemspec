@@ -13,6 +13,6 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.required_ruby_version = '~> 2.7.0'
-  s.add_dependency 'bricolage', '~> 5.26.0'
+  s.add_dependency 'bricolage', '>= 5.27.0', '~> 6.0.0beta5'
   s.add_dependency 'google-apis-sheets_v4', '~> 0.4.0'
 end

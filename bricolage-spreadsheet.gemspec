@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.files = Dir.glob(['README.md', 'RELEASE.md', 'lib/**/*.rb', 'jobclass/*.rb', 'test/**/*'])
   s.require_path = 'lib'
 
-  s.required_ruby_version = '>= 2.2.0'
-  s.add_dependency 'bricolage', '>= 5.26.0'
-  s.add_dependency 'google-api-client', '>= 0.53.0'
+  s.required_ruby_version = '~> 2.7.0'
+  s.add_dependency 'bricolage', '~> 5.26.0'
+  s.add_dependency 'google-apis-sheets_v4', '~> 0.4.0'
 end
